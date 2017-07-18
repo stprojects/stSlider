@@ -4,12 +4,13 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	let container = document.getElementById('slider');
 
-	console.log(container);
-
 	let options = {
 		slideDuration: 5000,
-		items: 1,
+		items: 3,
 		navEnabled: true,
+		paginationEnabled: true,
+		step: 1,
+		slideDuration: 1500,
 	}
 
 	let slider = new stSlider(container, options);
